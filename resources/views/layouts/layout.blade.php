@@ -11,6 +11,11 @@
 </head>
 <body>
 
+<ul class="d-fix">
+    <li><a href="{{route('home')}}">Home</a></li>
+    <li><a href="{{route('notification.email')}}">Send Email</a></li>
+</ul>
+
 <div class="container">
     @yield('content')
 </div>

@@ -3,5 +3,5 @@
 @section('title' , 'home')
 
 @section('content')
-<h3 class="btn btn-info text-center">Home Page!</h3>
+<h3 class=" text-center">Home Page!</h3>
 @endsection

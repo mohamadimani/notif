@@ -3,7 +3,7 @@
 namespace App\Services\Notification\Providers;
 
 use App\Models\User;
-use App\Services\Notification\Providers\Contracts\Provider;
+use App\Services\Notification\Providers\Interfaces\Provider;
 use Illuminate\Mail\Mailable;
 use Illuminate\Support\Facades\Mail;
 

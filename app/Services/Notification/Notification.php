@@ -2,15 +2,10 @@
 
 namespace  App\Services\Notification;
 
-use App\Models\User;
-use App\Services\Notification\Providers\Contracts\Provider;
-use App\Services\Notification\Providers\SmsProvider;
-use App\Services\Notification\Providers\EmailProvider;
-use Illuminate\Mail\Mailable;
+use App\Services\Notification\Providers\Interfaces\Provider;
 
 class Notification
 {
-
     public function __call($name, $arguments)
     {
         $providerPath = __NAMESPACE__ . '\Providers\\' . substr($name, 4) . 'Provider';

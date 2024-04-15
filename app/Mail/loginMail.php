@@ -17,9 +17,10 @@ class loginMail extends Mailable implements ShouldQueue
     /**
      * Create a new message instance.
      */
-    public function __construct()
+    public function __construct(string $text = NULL)
     {
         $this->param['name'] = 'mani';
+        $this->param['text'] = $text;
     }
 
     /**

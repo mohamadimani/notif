@@ -2,7 +2,7 @@
 
 namespace App\Services\Notification\Providers;
 
-use App\Services\Notification\Providers\Contracts\Provider;
+use App\Services\Notification\Providers\Interfaces\Provider;
 
 class TelegramProvider implements Provider
 {

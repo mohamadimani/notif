@@ -10,6 +10,7 @@
 
 <h2>welcome dear {{$param['name'] }} !</h2>
 <h2>You loged in</h2>
+<h2>text : {{$param['text'] }} </h2>
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Notification\Providers\Contracts;
+namespace App\Services\Notification\Providers\Interfaces;
 
 interface Provider
 {
